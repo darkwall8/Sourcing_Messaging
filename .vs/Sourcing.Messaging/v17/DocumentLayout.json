@@ -1,0 +1,361 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mmaya\\source\\repos\\Sourcing.Messaging\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CF12E6BE-B448-4006-BB50-BCA9B6977656}|Sourcing.Messaging.BLL\\Sourcing.Messaging.BLL.csproj|c:\\users\\mmaya\\source\\repos\\sourcing.messaging\\sourcing.messaging.bll\\messageservice\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF12E6BE-B448-4006-BB50-BCA9B6977656}|Sourcing.Messaging.BLL\\Sourcing.Messaging.BLL.csproj|solutionrelative:sourcing.messaging.bll\\messageservice\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552FD58C-ECFB-49D1-867B-92DC8BB2A0E8}|Sourcing.Messaging.DAL\\Sourcing.Messaging.DAL.csproj|c:\\users\\mmaya\\source\\repos\\sourcing.messaging\\sourcing.messaging.dal\\dtos\\conversationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{552FD58C-ECFB-49D1-867B-92DC8BB2A0E8}|Sourcing.Messaging.DAL\\Sourcing.Messaging.DAL.csproj|solutionrelative:sourcing.messaging.dal\\dtos\\conversationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF12E6BE-B448-4006-BB50-BCA9B6977656}|Sourcing.Messaging.BLL\\Sourcing.Messaging.BLL.csproj|c:\\users\\mmaya\\source\\repos\\sourcing.messaging\\sourcing.messaging.bll\\dtos\\dtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF12E6BE-B448-4006-BB50-BCA9B6977656}|Sourcing.Messaging.BLL\\Sourcing.Messaging.BLL.csproj|solutionrelative:sourcing.messaging.bll\\dtos\\dtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552FD58C-ECFB-49D1-867B-92DC8BB2A0E8}|Sourcing.Messaging.DAL\\Sourcing.Messaging.DAL.csproj|c:\\users\\mmaya\\source\\repos\\sourcing.messaging\\sourcing.messaging.dal\\messagedataclient\\fakemessagedataclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{552FD58C-ECFB-49D1-867B-92DC8BB2A0E8}|Sourcing.Messaging.DAL\\Sourcing.Messaging.DAL.csproj|solutionrelative:sourcing.messaging.dal\\messagedataclient\\fakemessagedataclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF12E6BE-B448-4006-BB50-BCA9B6977656}|Sourcing.Messaging.BLL\\Sourcing.Messaging.BLL.csproj|c:\\users\\mmaya\\source\\repos\\sourcing.messaging\\sourcing.messaging.bll\\models\\serviceresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF12E6BE-B448-4006-BB50-BCA9B6977656}|Sourcing.Messaging.BLL\\Sourcing.Messaging.BLL.csproj|solutionrelative:sourcing.messaging.bll\\models\\serviceresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3F14472-54B3-4110-8270-D3ACC6C19ACC}|Sourcing.Messaging\\Sourcing.Messaging.API.csproj|c:\\users\\mmaya\\source\\repos\\sourcing.messaging\\sourcing.messaging\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3F14472-54B3-4110-8270-D3ACC6C19ACC}|Sourcing.Messaging\\Sourcing.Messaging.API.csproj|solutionrelative:sourcing.messaging\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D84537-F1BB-4A3B-AB27-B13E510A4B65}|Sourcing.Messaging.Tests\\Sourcing.Messaging.Tests.csproj|c:\\users\\mmaya\\source\\repos\\sourcing.messaging\\sourcing.messaging.tests\\customwebapplicationfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D84537-F1BB-4A3B-AB27-B13E510A4B65}|Sourcing.Messaging.Tests\\Sourcing.Messaging.Tests.csproj|solutionrelative:sourcing.messaging.tests\\customwebapplicationfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D84537-F1BB-4A3B-AB27-B13E510A4B65}|Sourcing.Messaging.Tests\\Sourcing.Messaging.Tests.csproj|c:\\users\\mmaya\\source\\repos\\sourcing.messaging\\sourcing.messaging.tests\\messagingintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D84537-F1BB-4A3B-AB27-B13E510A4B65}|Sourcing.Messaging.Tests\\Sourcing.Messaging.Tests.csproj|solutionrelative:sourcing.messaging.tests\\messagingintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3F14472-54B3-4110-8270-D3ACC6C19ACC}|Sourcing.Messaging\\Sourcing.Messaging.API.csproj|c:\\users\\mmaya\\source\\repos\\sourcing.messaging\\sourcing.messaging\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3F14472-54B3-4110-8270-D3ACC6C19ACC}|Sourcing.Messaging\\Sourcing.Messaging.API.csproj|solutionrelative:sourcing.messaging\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3F14472-54B3-4110-8270-D3ACC6C19ACC}|Sourcing.Messaging\\Sourcing.Messaging.API.csproj|c:\\users\\mmaya\\source\\repos\\sourcing.messaging\\sourcing.messaging\\services\\signalrmessenger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3F14472-54B3-4110-8270-D3ACC6C19ACC}|Sourcing.Messaging\\Sourcing.Messaging.API.csproj|solutionrelative:sourcing.messaging\\services\\signalrmessenger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3F14472-54B3-4110-8270-D3ACC6C19ACC}|Sourcing.Messaging\\Sourcing.Messaging.API.csproj|c:\\users\\mmaya\\source\\repos\\sourcing.messaging\\sourcing.messaging\\controllers\\messagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3F14472-54B3-4110-8270-D3ACC6C19ACC}|Sourcing.Messaging\\Sourcing.Messaging.API.csproj|solutionrelative:sourcing.messaging\\controllers\\messagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3F14472-54B3-4110-8270-D3ACC6C19ACC}|Sourcing.Messaging\\Sourcing.Messaging.API.csproj|c:\\users\\mmaya\\source\\repos\\sourcing.messaging\\sourcing.messaging\\hubs\\customuseridprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3F14472-54B3-4110-8270-D3ACC6C19ACC}|Sourcing.Messaging\\Sourcing.Messaging.API.csproj|solutionrelative:sourcing.messaging\\hubs\\customuseridprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3F14472-54B3-4110-8270-D3ACC6C19ACC}|Sourcing.Messaging\\Sourcing.Messaging.API.csproj|c:\\users\\mmaya\\source\\repos\\sourcing.messaging\\sourcing.messaging\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D3F14472-54B3-4110-8270-D3ACC6C19ACC}|Sourcing.Messaging\\Sourcing.Messaging.API.csproj|solutionrelative:sourcing.messaging\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3F14472-54B3-4110-8270-D3ACC6C19ACC}|Sourcing.Messaging\\Sourcing.Messaging.API.csproj|c:\\users\\mmaya\\source\\repos\\sourcing.messaging\\sourcing.messaging\\sourcing.messaging.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D3F14472-54B3-4110-8270-D3ACC6C19ACC}|Sourcing.Messaging\\Sourcing.Messaging.API.csproj|solutionrelative:sourcing.messaging\\sourcing.messaging.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3F14472-54B3-4110-8270-D3ACC6C19ACC}|Sourcing.Messaging\\Sourcing.Messaging.API.csproj|c:\\users\\mmaya\\source\\repos\\sourcing.messaging\\sourcing.messaging\\controllers\\inboxcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3F14472-54B3-4110-8270-D3ACC6C19ACC}|Sourcing.Messaging\\Sourcing.Messaging.API.csproj|solutionrelative:sourcing.messaging\\controllers\\inboxcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF12E6BE-B448-4006-BB50-BCA9B6977656}|Sourcing.Messaging.BLL\\Sourcing.Messaging.BLL.csproj|c:\\users\\mmaya\\source\\repos\\sourcing.messaging\\sourcing.messaging.bll\\realtime\\irealtimemessenger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF12E6BE-B448-4006-BB50-BCA9B6977656}|Sourcing.Messaging.BLL\\Sourcing.Messaging.BLL.csproj|solutionrelative:sourcing.messaging.bll\\realtime\\irealtimemessenger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552FD58C-ECFB-49D1-867B-92DC8BB2A0E8}|Sourcing.Messaging.DAL\\Sourcing.Messaging.DAL.csproj|c:\\users\\mmaya\\source\\repos\\sourcing.messaging\\sourcing.messaging.dal\\messagedataclient\\messagedataclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{552FD58C-ECFB-49D1-867B-92DC8BB2A0E8}|Sourcing.Messaging.DAL\\Sourcing.Messaging.DAL.csproj|solutionrelative:sourcing.messaging.dal\\messagedataclient\\messagedataclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF12E6BE-B448-4006-BB50-BCA9B6977656}|Sourcing.Messaging.BLL\\Sourcing.Messaging.BLL.csproj|c:\\users\\mmaya\\source\\repos\\sourcing.messaging\\sourcing.messaging.bll\\messageservice\\imessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF12E6BE-B448-4006-BB50-BCA9B6977656}|Sourcing.Messaging.BLL\\Sourcing.Messaging.BLL.csproj|solutionrelative:sourcing.messaging.bll\\messageservice\\imessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552FD58C-ECFB-49D1-867B-92DC8BB2A0E8}|Sourcing.Messaging.DAL\\Sourcing.Messaging.DAL.csproj|c:\\users\\mmaya\\source\\repos\\sourcing.messaging\\sourcing.messaging.dal\\messagedataclient\\imessagedataclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{552FD58C-ECFB-49D1-867B-92DC8BB2A0E8}|Sourcing.Messaging.DAL\\Sourcing.Messaging.DAL.csproj|solutionrelative:sourcing.messaging.dal\\messagedataclient\\imessagedataclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552FD58C-ECFB-49D1-867B-92DC8BB2A0E8}|Sourcing.Messaging.DAL\\Sourcing.Messaging.DAL.csproj|c:\\users\\mmaya\\source\\repos\\sourcing.messaging\\sourcing.messaging.dal\\dtos\\messagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{552FD58C-ECFB-49D1-867B-92DC8BB2A0E8}|Sourcing.Messaging.DAL\\Sourcing.Messaging.DAL.csproj|solutionrelative:sourcing.messaging.dal\\dtos\\messagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3F14472-54B3-4110-8270-D3ACC6C19ACC}|Sourcing.Messaging\\Sourcing.Messaging.API.csproj|c:\\users\\mmaya\\source\\repos\\sourcing.messaging\\sourcing.messaging\\sourcing.messaging.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{D3F14472-54B3-4110-8270-D3ACC6C19ACC}|Sourcing.Messaging\\Sourcing.Messaging.API.csproj|solutionrelative:sourcing.messaging\\sourcing.messaging.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SignalRMessenger.cs",
+              "DocumentMoniker": "C:\\Users\\mmaya\\source\\repos\\Sourcing.Messaging\\Sourcing.Messaging\\Services\\SignalRMessenger.cs",
+              "RelativeDocumentMoniker": "Sourcing.Messaging\\Services\\SignalRMessenger.cs",
+              "ToolTip": "C:\\Users\\mmaya\\source\\repos\\Sourcing.Messaging\\Sourcing.Messaging\\Services\\SignalRMessenger.cs",
+              "RelativeToolTip": "Sourcing.Messaging\\Services\\SignalRMessenger.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T10:03:48.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MessageService.cs",
+              "DocumentMoniker": "C:\\Users\\mmaya\\source\\repos\\Sourcing.Messaging\\Sourcing.Messaging.BLL\\MessageService\\MessageService.cs",
+              "RelativeDocumentMoniker": "Sourcing.Messaging.BLL\\MessageService\\MessageService.cs",
+              "ToolTip": "C:\\Users\\mmaya\\source\\repos\\Sourcing.Messaging\\Sourcing.Messaging.BLL\\MessageService\\MessageService.cs",
+              "RelativeToolTip": "Sourcing.Messaging.BLL\\MessageService\\MessageService.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwGMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T12:55:38.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ChatHub.cs",
+              "DocumentMoniker": "C:\\Users\\mmaya\\source\\repos\\Sourcing.Messaging\\Sourcing.Messaging\\Hubs\\ChatHub.cs",
+              "RelativeDocumentMoniker": "Sourcing.Messaging\\Hubs\\ChatHub.cs",
+              "ToolTip": "C:\\Users\\mmaya\\source\\repos\\Sourcing.Messaging\\Sourcing.Messaging\\Hubs\\ChatHub.cs",
+              "RelativeToolTip": "Sourcing.Messaging\\Hubs\\ChatHub.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAUwBsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T09:44:12.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DTOs.cs",
+              "DocumentMoniker": "C:\\Users\\mmaya\\source\\repos\\Sourcing.Messaging\\Sourcing.Messaging.BLL\\DTOs\\DTOs.cs",
+              "RelativeDocumentMoniker": "Sourcing.Messaging.BLL\\DTOs\\DTOs.cs",
+              "ToolTip": "C:\\Users\\mmaya\\source\\repos\\Sourcing.Messaging\\Sourcing.Messaging.BLL\\DTOs\\DTOs.cs",
+              "RelativeToolTip": "Sourcing.Messaging.BLL\\DTOs\\DTOs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T12:56:28.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FakeMessageDataClient.cs",
+              "DocumentMoniker": "C:\\Users\\mmaya\\source\\repos\\Sourcing.Messaging\\Sourcing.Messaging.DAL\\MessageDataClient\\FakeMessageDataClient.cs",
+              "RelativeDocumentMoniker": "Sourcing.Messaging.DAL\\MessageDataClient\\FakeMessageDataClient.cs",
+              "ToolTip": "C:\\Users\\mmaya\\source\\repos\\Sourcing.Messaging\\Sourcing.Messaging.DAL\\MessageDataClient\\FakeMessageDataClient.cs",
+              "RelativeToolTip": "Sourcing.Messaging.DAL\\MessageDataClient\\FakeMessageDataClient.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAIAywCsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T16:44:32.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ServiceResult.cs",
+              "DocumentMoniker": "C:\\Users\\mmaya\\source\\repos\\Sourcing.Messaging\\Sourcing.Messaging.BLL\\Models\\ServiceResult.cs",
+              "RelativeDocumentMoniker": "Sourcing.Messaging.BLL\\Models\\ServiceResult.cs",
+              "ToolTip": "C:\\Users\\mmaya\\source\\repos\\Sourcing.Messaging\\Sourcing.Messaging.BLL\\Models\\ServiceResult.cs",
+              "RelativeToolTip": "Sourcing.Messaging.BLL\\Models\\ServiceResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAkwBkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T17:07:31.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ConversationDto.cs",
+              "DocumentMoniker": "C:\\Users\\mmaya\\source\\repos\\Sourcing.Messaging\\Sourcing.Messaging.DAL\\DTOs\\ConversationDto.cs",
+              "RelativeDocumentMoniker": "Sourcing.Messaging.DAL\\DTOs\\ConversationDto.cs",
+              "ToolTip": "C:\\Users\\mmaya\\source\\repos\\Sourcing.Messaging\\Sourcing.Messaging.DAL\\DTOs\\ConversationDto.cs",
+              "RelativeToolTip": "Sourcing.Messaging.DAL\\DTOs\\ConversationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T08:40:07.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MessagingIntegrationTests.cs",
+              "DocumentMoniker": "C:\\Users\\mmaya\\source\\repos\\Sourcing.Messaging\\Sourcing.Messaging.Tests\\MessagingIntegrationTests.cs",
+              "RelativeDocumentMoniker": "Sourcing.Messaging.Tests\\MessagingIntegrationTests.cs",
+              "ToolTip": "C:\\Users\\mmaya\\source\\repos\\Sourcing.Messaging\\Sourcing.Messaging.Tests\\MessagingIntegrationTests.cs",
+              "RelativeToolTip": "Sourcing.Messaging.Tests\\MessagingIntegrationTests.cs",
+              "ViewState": "AgIAAKgAAAAAAAAAAAAowIIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T17:18:30.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mmaya\\source\\repos\\Sourcing.Messaging\\Sourcing.Messaging\\Program.cs",
+              "RelativeDocumentMoniker": "Sourcing.Messaging\\Program.cs",
+              "ToolTip": "C:\\Users\\mmaya\\source\\repos\\Sourcing.Messaging\\Sourcing.Messaging\\Program.cs",
+              "RelativeToolTip": "Sourcing.Messaging\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T12:42:35.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CustomUserIdProvider.cs",
+              "DocumentMoniker": "C:\\Users\\mmaya\\source\\repos\\Sourcing.Messaging\\Sourcing.Messaging\\Hubs\\CustomUserIdProvider.cs",
+              "RelativeDocumentMoniker": "Sourcing.Messaging\\Hubs\\CustomUserIdProvider.cs",
+              "ToolTip": "C:\\Users\\mmaya\\source\\repos\\Sourcing.Messaging\\Sourcing.Messaging\\Hubs\\CustomUserIdProvider.cs",
+              "RelativeToolTip": "Sourcing.Messaging\\Hubs\\CustomUserIdProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T09:52:11.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CustomWebApplicationFactory.cs",
+              "DocumentMoniker": "C:\\Users\\mmaya\\source\\repos\\Sourcing.Messaging\\Sourcing.Messaging.Tests\\CustomWebApplicationFactory.cs",
+              "RelativeDocumentMoniker": "Sourcing.Messaging.Tests\\CustomWebApplicationFactory.cs",
+              "ToolTip": "C:\\Users\\mmaya\\source\\repos\\Sourcing.Messaging\\Sourcing.Messaging.Tests\\CustomWebApplicationFactory.cs",
+              "RelativeToolTip": "Sourcing.Messaging.Tests\\CustomWebApplicationFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T10:30:10.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\mmaya\\source\\repos\\Sourcing.Messaging\\Sourcing.Messaging\\appsettings.json",
+              "RelativeDocumentMoniker": "Sourcing.Messaging\\appsettings.json",
+              "ToolTip": "C:\\Users\\mmaya\\source\\repos\\Sourcing.Messaging\\Sourcing.Messaging\\appsettings.json",
+              "RelativeToolTip": "Sourcing.Messaging\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-21T17:34:45.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MessagesController.cs",
+              "DocumentMoniker": "C:\\Users\\mmaya\\source\\repos\\Sourcing.Messaging\\Sourcing.Messaging\\Controllers\\MessagesController.cs",
+              "RelativeDocumentMoniker": "Sourcing.Messaging\\Controllers\\MessagesController.cs",
+              "ToolTip": "C:\\Users\\mmaya\\source\\repos\\Sourcing.Messaging\\Sourcing.Messaging\\Controllers\\MessagesController.cs",
+              "RelativeToolTip": "Sourcing.Messaging\\Controllers\\MessagesController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA1wBQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T13:02:23.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Sourcing.Messaging.API.csproj",
+              "DocumentMoniker": "C:\\Users\\mmaya\\source\\repos\\Sourcing.Messaging\\Sourcing.Messaging\\Sourcing.Messaging.API.csproj",
+              "RelativeDocumentMoniker": "Sourcing.Messaging\\Sourcing.Messaging.API.csproj",
+              "ToolTip": "C:\\Users\\mmaya\\source\\repos\\Sourcing.Messaging\\Sourcing.Messaging\\Sourcing.Messaging.API.csproj",
+              "RelativeToolTip": "Sourcing.Messaging\\Sourcing.Messaging.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-21T17:37:39.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "InboxController.cs",
+              "DocumentMoniker": "C:\\Users\\mmaya\\source\\repos\\Sourcing.Messaging\\Sourcing.Messaging\\Controllers\\InboxController.cs",
+              "RelativeDocumentMoniker": "Sourcing.Messaging\\Controllers\\InboxController.cs",
+              "ToolTip": "C:\\Users\\mmaya\\source\\repos\\Sourcing.Messaging\\Sourcing.Messaging\\Controllers\\InboxController.cs",
+              "RelativeToolTip": "Sourcing.Messaging\\Controllers\\InboxController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T14:35:42.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IRealTimeMessenger.cs",
+              "DocumentMoniker": "C:\\Users\\mmaya\\source\\repos\\Sourcing.Messaging\\Sourcing.Messaging.BLL\\RealTime\\IRealTimeMessenger.cs",
+              "RelativeDocumentMoniker": "Sourcing.Messaging.BLL\\RealTime\\IRealTimeMessenger.cs",
+              "ToolTip": "C:\\Users\\mmaya\\source\\repos\\Sourcing.Messaging\\Sourcing.Messaging.BLL\\RealTime\\IRealTimeMessenger.cs",
+              "RelativeToolTip": "Sourcing.Messaging.BLL\\RealTime\\IRealTimeMessenger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T09:59:10.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MessageDataClient.cs",
+              "DocumentMoniker": "C:\\Users\\mmaya\\source\\repos\\Sourcing.Messaging\\Sourcing.Messaging.DAL\\MessageDataClient\\MessageDataClient.cs",
+              "RelativeDocumentMoniker": "Sourcing.Messaging.DAL\\MessageDataClient\\MessageDataClient.cs",
+              "ToolTip": "C:\\Users\\mmaya\\source\\repos\\Sourcing.Messaging\\Sourcing.Messaging.DAL\\MessageDataClient\\MessageDataClient.cs",
+              "RelativeToolTip": "Sourcing.Messaging.DAL\\MessageDataClient\\MessageDataClient.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwCkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T12:43:37.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IMessageService.cs",
+              "DocumentMoniker": "C:\\Users\\mmaya\\source\\repos\\Sourcing.Messaging\\Sourcing.Messaging.BLL\\MessageService\\IMessageService.cs",
+              "RelativeDocumentMoniker": "Sourcing.Messaging.BLL\\MessageService\\IMessageService.cs",
+              "ToolTip": "C:\\Users\\mmaya\\source\\repos\\Sourcing.Messaging\\Sourcing.Messaging.BLL\\MessageService\\IMessageService.cs",
+              "RelativeToolTip": "Sourcing.Messaging.BLL\\MessageService\\IMessageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T12:55:22.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IMessageDataClient.cs",
+              "DocumentMoniker": "C:\\Users\\mmaya\\source\\repos\\Sourcing.Messaging\\Sourcing.Messaging.DAL\\MessageDataClient\\IMessageDataClient.cs",
+              "RelativeDocumentMoniker": "Sourcing.Messaging.DAL\\MessageDataClient\\IMessageDataClient.cs",
+              "ToolTip": "C:\\Users\\mmaya\\source\\repos\\Sourcing.Messaging\\Sourcing.Messaging.DAL\\MessageDataClient\\IMessageDataClient.cs",
+              "RelativeToolTip": "Sourcing.Messaging.DAL\\MessageDataClient\\IMessageDataClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T12:44:01.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MessageDto.cs",
+              "DocumentMoniker": "C:\\Users\\mmaya\\source\\repos\\Sourcing.Messaging\\Sourcing.Messaging.DAL\\DTOs\\MessageDto.cs",
+              "RelativeDocumentMoniker": "Sourcing.Messaging.DAL\\DTOs\\MessageDto.cs",
+              "ToolTip": "C:\\Users\\mmaya\\source\\repos\\Sourcing.Messaging\\Sourcing.Messaging.DAL\\DTOs\\MessageDto.cs",
+              "RelativeToolTip": "Sourcing.Messaging.DAL\\DTOs\\MessageDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T12:51:24.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Sourcing.Messaging.http",
+              "DocumentMoniker": "C:\\Users\\mmaya\\source\\repos\\Sourcing.Messaging\\Sourcing.Messaging\\Sourcing.Messaging.http",
+              "RelativeDocumentMoniker": "Sourcing.Messaging\\Sourcing.Messaging.http",
+              "ToolTip": "C:\\Users\\mmaya\\source\\repos\\Sourcing.Messaging\\Sourcing.Messaging\\Sourcing.Messaging.http",
+              "RelativeToolTip": "Sourcing.Messaging\\Sourcing.Messaging.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-05-22T11:45:07.621Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

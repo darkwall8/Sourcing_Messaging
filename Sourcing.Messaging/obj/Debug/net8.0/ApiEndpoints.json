@@ -1,0 +1,55 @@
+[
+  {
+    "ContainingType": "Sourcing.Messaging.API.Controllers.InboxController",
+    "Method": "GetUserInbox",
+    "RelativePath": "api/inbox/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Sourcing.Messaging.API.Controllers.MessagesController",
+    "Method": "SendMessage",
+    "RelativePath": "api/messages",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Sourcing.Messaging.DAL.DTOs.MessageDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Sourcing.Messaging.API.Controllers.MessagesController",
+    "Method": "GetConversation",
+    "RelativePath": "api/messages/{userA}/{userB}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userA",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "userB",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

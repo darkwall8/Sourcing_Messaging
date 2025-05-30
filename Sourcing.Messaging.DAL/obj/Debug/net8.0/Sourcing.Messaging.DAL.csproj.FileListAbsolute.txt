@@ -1,0 +1,12 @@
+C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging.DAL\bin\Debug\net8.0\Sourcing.Messaging.DAL.deps.json
+C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging.DAL\bin\Debug\net8.0\Sourcing.Messaging.DAL.dll
+C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging.DAL\bin\Debug\net8.0\Sourcing.Messaging.DAL.pdb
+C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging.DAL\obj\Debug\net8.0\Sourcing.Messaging.DAL.csproj.AssemblyReference.cache
+C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging.DAL\obj\Debug\net8.0\Sourcing.Messaging.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging.DAL\obj\Debug\net8.0\Sourcing.Messaging.DAL.AssemblyInfoInputs.cache
+C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging.DAL\obj\Debug\net8.0\Sourcing.Messaging.DAL.AssemblyInfo.cs
+C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging.DAL\obj\Debug\net8.0\Sourcing.Messaging.DAL.csproj.CoreCompileInputs.cache
+C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging.DAL\obj\Debug\net8.0\Sourcing.Messaging.DAL.dll
+C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging.DAL\obj\Debug\net8.0\refint\Sourcing.Messaging.DAL.dll
+C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging.DAL\obj\Debug\net8.0\Sourcing.Messaging.DAL.pdb
+C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging.DAL\obj\Debug\net8.0\ref\Sourcing.Messaging.DAL.dll

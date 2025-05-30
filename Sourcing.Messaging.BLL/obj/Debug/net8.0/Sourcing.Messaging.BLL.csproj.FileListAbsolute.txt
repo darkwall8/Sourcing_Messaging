@@ -1,0 +1,15 @@
+C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging.BLL\bin\Debug\net8.0\Sourcing.Messaging.BLL.deps.json
+C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging.BLL\bin\Debug\net8.0\Sourcing.Messaging.BLL.dll
+C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging.BLL\bin\Debug\net8.0\Sourcing.Messaging.BLL.pdb
+C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging.BLL\bin\Debug\net8.0\Sourcing.Messaging.DAL.dll
+C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging.BLL\bin\Debug\net8.0\Sourcing.Messaging.DAL.pdb
+C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging.BLL\obj\Debug\net8.0\Sourcing.Messaging.BLL.csproj.AssemblyReference.cache
+C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging.BLL\obj\Debug\net8.0\Sourcing.Messaging.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging.BLL\obj\Debug\net8.0\Sourcing.Messaging.BLL.AssemblyInfoInputs.cache
+C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging.BLL\obj\Debug\net8.0\Sourcing.Messaging.BLL.AssemblyInfo.cs
+C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging.BLL\obj\Debug\net8.0\Sourcing.Messaging.BLL.csproj.CoreCompileInputs.cache
+C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging.BLL\obj\Debug\net8.0\Sourcing.1C786E4B.Up2Date
+C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging.BLL\obj\Debug\net8.0\Sourcing.Messaging.BLL.dll
+C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging.BLL\obj\Debug\net8.0\refint\Sourcing.Messaging.BLL.dll
+C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging.BLL\obj\Debug\net8.0\Sourcing.Messaging.BLL.pdb
+C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging.BLL\obj\Debug\net8.0\ref\Sourcing.Messaging.BLL.dll
