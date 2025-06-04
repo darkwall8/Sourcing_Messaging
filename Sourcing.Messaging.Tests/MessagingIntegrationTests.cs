@@ -4,25 +4,37 @@ using Xunit;
 using Microsoft.AspNetCore.Mvc.Testing;
 using Sourcing.Messaging.DAL.DTOs;
 using System.Collections.Generic;
-using Microsoft.VisualStudio.TestPlatform.TestHost;
-using Sourcing.Messaging.API;
-using Sourcing.Messaging.DAL.MessageDataClient;
 using Microsoft.AspNetCore.SignalR.Client;
+using System.Linq;
+using MongoDB.Driver;
+using Sourcing.Messaging.API;
 
 public class MessagingIntegrationTests : IClassFixture<WebApplicationFactory<Program>>
 {
     private readonly HttpClient _client;
-
+    private readonly IMongoCollection<MessageDto> _messagesCollection;
 
     public MessagingIntegrationTests(WebApplicationFactory<Program> factory)
     {
         _client = factory.CreateClient();
+
+        // Initialiser la connexion MongoDB pour nettoyage des collections avant tests
+        var mongoClient = new MongoClient("mongodb+srv://etienne:azerty1234@cluster0.oll054k.mongodb.net/SourcingMessaging?retryWrites=true&w=majority");
+        var database = mongoClient.GetDatabase("SourcingMessaging");
+        _messagesCollection = database.GetCollection<MessageDto>("Messages");
+    }
+
+    // Nettoyer la collection Messages avant chaque test
+    private async Task ClearMessagesAsync()
+    {
+        await _messagesCollection.DeleteManyAsync(FilterDefinition<MessageDto>.Empty);
     }
 
     [Fact]
     public async Task SendMessage_Returns200AndPersistsMessage()
     {
-        // Arrange
+        await ClearMessagesAsync();
+
         var message = new MessageDto
         {
             SenderId = "user1",
@@ -30,10 +42,7 @@ public class MessagingIntegrationTests : IClassFixture<WebApplicationFactory<Pro
             Content = "Bonjour entreprise Y"
         };
 
-        // Act
         var response = await _client.PostAsJsonAsync("/api/messages", message);
-
-        // Assert
         Assert.Equal(HttpStatusCode.OK, response.StatusCode);
 
         var result = await response.Content.ReadFromJsonAsync<DynamicResult<MessageDto>>();
@@ -41,20 +50,24 @@ public class MessagingIntegrationTests : IClassFixture<WebApplicationFactory<Pro
         Assert.Equal("Message envoyé avec succès.", result.message);
         Assert.Equal("user1", result.data.SenderId);
 
+        // Vérifier que le message a bien été inséré dans la base MongoDB
+        var insertedMessage = await _messagesCollection.Find(m => m.Content == "Bonjour entreprise Y").FirstOrDefaultAsync();
+        Assert.NotNull(insertedMessage);
+        Assert.Equal("user1", insertedMessage.SenderId);
+        Assert.Equal("user2", insertedMessage.ReceiverId);
     }
 
     [Fact]
     public async Task GetConversation_ReturnsOrderedMessages()
     {
-        FakeMessageDataClient.ClearMessages();
-
+        await ClearMessagesAsync();
 
         // Arrange
         var msg1 = new MessageDto { SenderId = "user1", ReceiverId = "user2", Content = "Message 1" };
         var msg2 = new MessageDto { SenderId = "user2", ReceiverId = "user1", Content = "Message 2" };
 
         await _client.PostAsJsonAsync("/api/messages", msg1);
-        await Task.Delay(20); // pour simuler une différence temporelle
+        await Task.Delay(20); // Pour simuler une différence temporelle
         await _client.PostAsJsonAsync("/api/messages", msg2);
 
         // Act
@@ -65,20 +78,19 @@ public class MessagingIntegrationTests : IClassFixture<WebApplicationFactory<Pro
 
         var result = await response.Content.ReadFromJsonAsync<DynamicResult<List<MessageDto>>>();
         Assert.Equal(2, result.data.Count);
-        Assert.True(result.data[0].SentAt < result.data[1].SentAt); // vérifie l'ordre
+        Assert.True(result.data[0].SentAt < result.data[1].SentAt); // Vérifie l'ordre des messages
     }
 
     [Fact]
     public async Task GetUserConversations_ReturnsCorrectInbox()
     {
-        FakeMessageDataClient.ClearMessages();
+        await ClearMessagesAsync();
 
-        // Arrange
         var user1 = "user1";
         var user2 = "user2";
         var user3 = "user3";
 
-        // On envoie des messages dans les deux sens
+        // Envoie des messages dans les deux sens
         await _client.PostAsJsonAsync("/api/messages", new MessageDto { SenderId = user2, ReceiverId = user1, Content = "Msg from user2" });
         await _client.PostAsJsonAsync("/api/messages", new MessageDto { SenderId = user3, ReceiverId = user1, Content = "Msg from user3" });
         await _client.PostAsJsonAsync("/api/messages", new MessageDto { SenderId = user1, ReceiverId = user2, Content = "Reply to user2" });
@@ -103,21 +115,13 @@ public class MessagingIntegrationTests : IClassFixture<WebApplicationFactory<Pro
     [Fact]
     public async Task FullConversation_WithSignalR_ReceivesMessagesAndGetsHistory()
     {
-        // 🧼 Nettoyage mémoire
-        FakeMessageDataClient.ClearMessages();
+        await ClearMessagesAsync();
 
-        // 👤 Utilisateurs
         string sender = "user1";
         string receiver = "user2";
 
-        // 🧠 Buffer pour stocker les messages reçus via SignalR
-        List<string> realtimeReceived = new();
-
-        // ⚡ Connexion SignalR simulée (user2)
         var baseUri = _client.BaseAddress!.ToString().TrimEnd('/');
         var hubUrl = $"{baseUri}/chat?userId={receiver}";
-
-
 
         var connection = new HubConnectionBuilder()
              .WithUrl(hubUrl, options =>
@@ -129,7 +133,7 @@ public class MessagingIntegrationTests : IClassFixture<WebApplicationFactory<Pro
              })
              .Build();
 
-
+        List<string> realtimeReceived = new();
 
         connection.On<SignalRMessage>("ReceiveMessage", msg =>
         {
@@ -139,7 +143,6 @@ public class MessagingIntegrationTests : IClassFixture<WebApplicationFactory<Pro
         await connection.StartAsync();
         Assert.Equal(HubConnectionState.Connected, connection.State);
 
-        // 📤 Envoie 5 messages via l’API (REST)
         for (int i = 1; i <= 5; i++)
         {
             var dto = new MessageDto
@@ -153,13 +156,10 @@ public class MessagingIntegrationTests : IClassFixture<WebApplicationFactory<Pro
             response.EnsureSuccessStatusCode();
         }
 
-        // ⏱️ Attendre un peu pour laisser le temps à SignalR de traiter
         await Task.Delay(500);
 
-        // ✅ Vérifie que 5 messages ont bien été reçus en live
         Assert.Equal(5, realtimeReceived.Count);
 
-        // 📥 Récupère toute la conversation via REST
         var historyResponse = await _client.GetAsync($"/api/messages/{sender}/{receiver}");
         historyResponse.EnsureSuccessStatusCode();
 
@@ -171,10 +171,6 @@ public class MessagingIntegrationTests : IClassFixture<WebApplicationFactory<Pro
 
         await connection.StopAsync();
     }
-
-
-
-
 
     // Classe pour lire dynamiquement les résultats JSON
     private class DynamicResult<T>
@@ -198,5 +194,4 @@ public class MessagingIntegrationTests : IClassFixture<WebApplicationFactory<Pro
         public string Content { get; set; }
         public DateTime SentAt { get; set; }
     }
-
 }

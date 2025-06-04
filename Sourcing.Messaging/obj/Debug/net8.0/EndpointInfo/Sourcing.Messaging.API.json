@@ -99,6 +99,10 @@
       "MessageDto": {
         "type": "object",
         "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
           "senderId": {
             "type": "string",
             "nullable": true

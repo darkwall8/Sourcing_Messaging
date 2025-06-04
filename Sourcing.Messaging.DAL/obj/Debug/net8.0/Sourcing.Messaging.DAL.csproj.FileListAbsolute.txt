@@ -10,3 +10,4 @@ C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging.DAL\obj\Debug\
 C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging.DAL\obj\Debug\net8.0\refint\Sourcing.Messaging.DAL.dll
 C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging.DAL\obj\Debug\net8.0\Sourcing.Messaging.DAL.pdb
 C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging.DAL\obj\Debug\net8.0\ref\Sourcing.Messaging.DAL.dll
+C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging.DAL\obj\Debug\net8.0\Sourcing.Messaging.DAL.sourcelink.json

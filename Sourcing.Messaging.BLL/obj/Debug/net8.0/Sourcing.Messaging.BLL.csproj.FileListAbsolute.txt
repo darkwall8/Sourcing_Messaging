@@ -13,3 +13,4 @@ C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging.BLL\obj\Debug\
 C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging.BLL\obj\Debug\net8.0\refint\Sourcing.Messaging.BLL.dll
 C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging.BLL\obj\Debug\net8.0\Sourcing.Messaging.BLL.pdb
 C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging.BLL\obj\Debug\net8.0\ref\Sourcing.Messaging.BLL.dll
+C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging.BLL\obj\Debug\net8.0\Sourcing.Messaging.BLL.sourcelink.json

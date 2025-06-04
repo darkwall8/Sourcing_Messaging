@@ -442,3 +442,10 @@ C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging.Tests\bin\Debu
 C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging.Tests\bin\Debug\net8.0\Microsoft.Extensions.Features.dll
 C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging.Tests\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
 C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging.Tests\bin\Debug\net8.0\System.Net.WebSockets.WebSocketProtocol.dll
+C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging.Tests\bin\Debug\net8.0\DnsClient.dll
+C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging.Tests\bin\Debug\net8.0\MongoDB.Bson.dll
+C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging.Tests\bin\Debug\net8.0\MongoDB.Driver.dll
+C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging.Tests\bin\Debug\net8.0\SharpCompress.dll
+C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging.Tests\bin\Debug\net8.0\Snappier.dll
+C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging.Tests\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging.Tests\obj\Debug\net8.0\Sourcing.Messaging.Tests.sourcelink.json

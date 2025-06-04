@@ -10,6 +10,7 @@ namespace Sourcing.Messaging.DAL.DTOs
     {
         public string OtherUserId { get; set; } = string.Empty;
         public string LastMessageContent { get; set; } = string.Empty;
+        public string Sender { get; set; }
         public DateTime LastMessageTime { get; set; }
         public bool HasUnreadMessages { get; set; }
     }

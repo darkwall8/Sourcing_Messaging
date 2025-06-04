@@ -11,8 +11,8 @@ namespace Sourcing.Messaging.DAL.MessageDataClient
     {
         Task<IEnumerable<MessageDto>> GetMessagesAsync(string sender, string receiver);
         Task<bool> SendMessageAsync(MessageDto message);
-        //Task<IEnumerable<MessageDto>> GetAllMessagesAsync();
-        //Task MarkMessagesAsRead(string readerId, string otherUserId);
+        Task<IEnumerable<MessageDto>> GetAllMessagesAsync();
+        Task MarkMessagesAsRead(string readerId, string otherUserId);
 
     }
 }

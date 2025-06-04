@@ -1,52 +1,60 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using Microsoft.Extensions.Logging;
-using Newtonsoft.Json;
+using MongoDB.Driver;
 using Sourcing.Messaging.DAL.DTOs;
 
 namespace Sourcing.Messaging.DAL.MessageDataClient
 {
     public class MessageDataClient : IMessageDataClient
     {
-        private readonly HttpClient _httpClient;
-        private readonly ILogger<MessageDataClient> _logger;
+        private readonly IMongoCollection<MessageDto> _messagesCollection;
 
-        public MessageDataClient(HttpClient httpClient, ILogger<MessageDataClient> logger)
+        public MessageDataClient(IMongoDatabase database)
         {
-            _httpClient = httpClient;
-            _logger = logger;
-        }
-
-        public async Task<IEnumerable<MessageDto>> GetMessagesAsync(string sender, string receiver)
-        {
-            var response = await _httpClient.GetAsync($"/api/messages/{sender}/{receiver}");
-            if (!response.IsSuccessStatusCode)
-            {
-                _logger.LogWarning("Erreur lors de la récupération des messages : {StatusCode}", response.StatusCode);
-                return Enumerable.Empty<MessageDto>();
-            }
-
-            var content = await response.Content.ReadAsStringAsync();
-            return JsonConvert.DeserializeObject<IEnumerable<MessageDto>>(content);
+            _messagesCollection = database.GetCollection<MessageDto>("Messages");
         }
 
         public async Task<bool> SendMessageAsync(MessageDto message)
         {
-            var json = JsonConvert.SerializeObject(message);
-            var httpContent = new StringContent(json, Encoding.UTF8, "application/json");
-
-            var response = await _httpClient.PostAsync("/api/messages", httpContent);
-            if (!response.IsSuccessStatusCode)
-            {
-                _logger.LogWarning("Erreur lors de l'envoi du message : {StatusCode}", response.StatusCode);
-            }
-
-            return response.IsSuccessStatusCode;
+            await _messagesCollection.InsertOneAsync(message);
+            return true;
         }
 
+        public async Task<IEnumerable<MessageDto>> GetMessagesAsync(string senderId, string receiverId)
+        {
+            var filter = Builders<MessageDto>.Filter.Where(m =>
+                (m.SenderId == senderId && m.ReceiverId == receiverId) ||
+                (m.SenderId == receiverId && m.ReceiverId == senderId));
 
+            var messages = await _messagesCollection.Find(filter)
+                .SortBy(m => m.SentAt)
+                .ToListAsync();
+
+            return messages;
+        }
+
+        public async Task<IEnumerable<MessageDto>> GetAllMessagesAsync()
+        {
+            var allMessages = await _messagesCollection.Find(_ => true).ToListAsync();
+            return allMessages;
+        }
+
+        public async Task MarkMessagesAsRead(string readerId, string otherUserId)
+        {
+            var filter = Builders<MessageDto>.Filter.And(
+                Builders<MessageDto>.Filter.Eq(m => m.ReceiverId, readerId),
+                Builders<MessageDto>.Filter.Eq(m => m.SenderId, otherUserId),
+                Builders<MessageDto>.Filter.Eq(m => m.IsRead, false)
+            );
+
+            var update = Builders<MessageDto>.Update.Set(m => m.IsRead, true);
+
+            await _messagesCollection.UpdateManyAsync(filter, update);
+        }
+
+        //public static void ClearMessages()
+        //{
+        //    _messagesCollection.Clear();
+        //}
     }
 }
