@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Sourcing.Messaging.BLL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c4d26021e8bfef69230427f96769fb8c699857be")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+04dca24b9d04cccc750dc7f5e594b04f91755f7f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Sourcing.Messaging.BLL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Sourcing.Messaging.BLL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

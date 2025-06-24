@@ -16,14 +16,17 @@ Log.Logger = new LoggerConfiguration()
     .WriteTo.Console(new JsonFormatter()) // Format JSON compact pour la console
     .WriteTo.File(
         "logs/errors-.log",
-        rollingInterval: RollingInterval.Day, // Rotation quotidienne des fichiers de logs
-        retainedFileCountLimit: 30, // Conserver 30 jours de logs
-        fileSizeLimitBytes: 1073741824 // Taille maximale des fichiers (1 Go)
+        rollingInterval: RollingInterval.Day,
+        retainedFileCountLimit: 30,
+        fileSizeLimitBytes: 1073741824
     )
     .CreateLogger();
 
 // Utiliser Serilog pour les logs
 builder.Host.UseSerilog();
+
+// ➕ Injection de l'instance Serilog.ILogger dans le DI
+builder.Services.AddSingleton<Serilog.ILogger>(Log.Logger);
 
 // ➕ SignalR
 builder.Services.AddSignalR();
@@ -56,30 +59,27 @@ app.UseSerilogRequestLogging(options =>
 {
     options.GetLevel = (httpContext, elapsedMilliseconds, ex) =>
     {
-        // Capture les logs des requêtes avec des niveaux d'importance personnalisés
         if (httpContext.Response.StatusCode >= 500)
-        {
             return Serilog.Events.LogEventLevel.Error;
-        }
         else if (httpContext.Response.StatusCode >= 400)
-        {
             return Serilog.Events.LogEventLevel.Warning;
-        }
         else
-        {
             return Serilog.Events.LogEventLevel.Information;
-        }
     };
 });
 
-app.UseSwagger();
-app.UseSwaggerUI();
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+
 
 app.UseHttpsRedirection();
 app.UseAuthorization();
 
-app.MapControllers();                         // REST
-app.MapHub<ChatHub>("/chat");                 // SignalR WebSocket
+app.MapControllers(); // REST
+app.MapHub<ChatHub>("/chat"); // SignalR WebSocket
 
 app.Run();
 
