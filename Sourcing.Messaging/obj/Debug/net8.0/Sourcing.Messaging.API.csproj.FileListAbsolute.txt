@@ -290,18 +290,14 @@ C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging\bin\Debug\net8
 C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging\bin\Debug\net8.0\refs\WindowsBase.dll
 C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
 C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
-C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
 C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
 C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.dll
 C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
-C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging\bin\Debug\net8.0\Microsoft.Extensions.Http.dll
 C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
 C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
-C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging\bin\Debug\net8.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
 C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging\bin\Debug\net8.0\Microsoft.OpenApi.dll
 C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging\bin\Debug\net8.0\Newtonsoft.Json.dll
@@ -363,3 +359,7 @@ C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging\bin\Debug\net8
 C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging\bin\Debug\net8.0\System.Text.Encodings.Web.dll
 C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging\bin\Debug\net8.0\System.Text.Json.dll
 C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.dll
+C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging\bin\Debug\net8.0\refs\Microsoft.Extensions.Diagnostics.dll
+C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging\bin\Debug\net8.0\refs\Microsoft.Extensions.Http.dll
+C:\Users\mmaya\source\repos\Sourcing.Messaging\Sourcing.Messaging\bin\Debug\net8.0\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll

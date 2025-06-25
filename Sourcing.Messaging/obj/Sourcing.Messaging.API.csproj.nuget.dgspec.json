@@ -55,6 +55,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "MongoDB.Driver": {
               "target": "Package",
               "version": "[3.4.0, )"
@@ -65,7 +69,7 @@
             },
             "Serilog.AspNetCore": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[8.0.0, )"
             },
             "Serilog.Formatting.Compact": {
               "target": "Package",
@@ -153,7 +157,7 @@
             },
             "Microsoft.Extensions.Http": {
               "target": "Package",
-              "version": "[9.0.5, )"
+              "version": "[8.0.0, )"
             },
             "MongoDB.Driver": {
               "target": "Package",
@@ -165,7 +169,7 @@
             },
             "Serilog.AspNetCore": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[8.0.0, )"
             },
             "Serilog.Formatting.Compact": {
               "target": "Package",
@@ -263,6 +267,10 @@
               "target": "Package",
               "version": "[1.2.0, )"
             },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.21.0, )"
@@ -277,7 +285,7 @@
             },
             "Serilog.AspNetCore": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[8.0.0, )"
             },
             "Serilog.Formatting.Compact": {
               "target": "Package",

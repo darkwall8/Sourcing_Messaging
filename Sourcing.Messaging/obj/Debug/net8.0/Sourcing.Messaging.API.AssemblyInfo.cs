@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Sourcing.Messaging.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+60e498bda00ae40ee5ba635fb5caa1e77024b1d7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d5fd26ea6f4b7eac80fe55e525e7ce3ab6108b0f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Sourcing.Messaging.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Sourcing.Messaging.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
