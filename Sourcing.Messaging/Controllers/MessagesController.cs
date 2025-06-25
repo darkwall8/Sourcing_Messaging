@@ -22,6 +22,13 @@ namespace Sourcing.Messaging.API.Controllers
             return StatusCode(result.StatusCode, result);
         }
 
+        [HttpGet("test")]
+        public IActionResult Test()
+        {
+            return Ok("Hello World");
+        }
+
+
 
 
         [HttpGet("{userA}/{userB}")]
