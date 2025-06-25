@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Sourcing.Messaging.Test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+60e498bda00ae40ee5ba635fb5caa1e77024b1d7")]
 [assembly: System.Reflection.AssemblyProductAttribute("Sourcing.Messaging.Test")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Sourcing.Messaging.Test")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
