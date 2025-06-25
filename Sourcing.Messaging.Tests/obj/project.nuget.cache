@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+pJVpc003oI=",
+  "dgSpecHash": "DNcQc6Sot6M=",
   "success": true,
   "projectFilePath": "C:\\Users\\mmaya\\source\\repos\\Sourcing.Messaging\\Sourcing.Messaging.Tests\\Sourcing.Messaging.Tests.csproj",
   "expectedPackageFiles": [
@@ -61,7 +61,7 @@
     "C:\\Users\\mmaya\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\8.0.0\\microsoft.extensions.filesystemglobbing.8.0.0.nupkg.sha512",
     "C:\\Users\\mmaya\\.nuget\\packages\\microsoft.extensions.hosting\\8.0.1\\microsoft.extensions.hosting.8.0.1.nupkg.sha512",
     "C:\\Users\\mmaya\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\8.0.1\\microsoft.extensions.hosting.abstractions.8.0.1.nupkg.sha512",
-    "C:\\Users\\mmaya\\.nuget\\packages\\microsoft.extensions.http\\8.0.0\\microsoft.extensions.http.8.0.0.nupkg.sha512",
+    "C:\\Users\\mmaya\\.nuget\\packages\\microsoft.extensions.http\\8.0.1\\microsoft.extensions.http.8.0.1.nupkg.sha512",
     "C:\\Users\\mmaya\\.nuget\\packages\\microsoft.extensions.logging\\8.0.1\\microsoft.extensions.logging.8.0.1.nupkg.sha512",
     "C:\\Users\\mmaya\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.3\\microsoft.extensions.logging.abstractions.8.0.3.nupkg.sha512",
     "C:\\Users\\mmaya\\.nuget\\packages\\microsoft.extensions.logging.configuration\\8.0.1\\microsoft.extensions.logging.configuration.8.0.1.nupkg.sha512",

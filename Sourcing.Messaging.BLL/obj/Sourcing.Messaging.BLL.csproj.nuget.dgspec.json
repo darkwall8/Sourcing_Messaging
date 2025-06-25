@@ -58,7 +58,7 @@
           "dependencies": {
             "Microsoft.Extensions.Http": {
               "target": "Package",
-              "version": "[8.0.0, )",
+              "version": "[8.0.1, )",
               "versionCentrallyManaged": true
             },
             "MongoDB.Driver": {
@@ -100,7 +100,7 @@
             "Microsoft.AspNetCore.SignalR.Client": "8.0.16",
             "Microsoft.AspNetCore.SignalR.Core": "1.2.0",
             "Microsoft.EntityFrameworkCore.InMemory": "8.0.16",
-            "Microsoft.Extensions.Http": "8.0.0",
+            "Microsoft.Extensions.Http": "8.0.1",
             "Microsoft.NET.Test.Sdk": "17.8.0",
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.21.0",
             "MongoDB.Driver": "3.4.0",
@@ -188,7 +188,7 @@
             },
             "Microsoft.Extensions.Http": {
               "target": "Package",
-              "version": "[8.0.0, )",
+              "version": "[8.0.1, )",
               "versionCentrallyManaged": true
             },
             "MongoDB.Driver": {
@@ -230,7 +230,7 @@
             "Microsoft.AspNetCore.SignalR.Client": "8.0.16",
             "Microsoft.AspNetCore.SignalR.Core": "1.2.0",
             "Microsoft.EntityFrameworkCore.InMemory": "8.0.16",
-            "Microsoft.Extensions.Http": "8.0.0",
+            "Microsoft.Extensions.Http": "8.0.1",
             "Microsoft.NET.Test.Sdk": "17.8.0",
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.21.0",
             "MongoDB.Driver": "3.4.0",
